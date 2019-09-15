@@ -16,7 +16,7 @@
 * [Felixx Shepherd](https://marketplace.secondlife.com/stores/13205)
 * [# Xenaus #](https://marketplace.secondlife.com/stores/175524)
 * [:DH: Shop](https://marketplace.secondlife.com/stores/51794)
-* [☘️ Green Fairy ☘️](☘️ Green Fairy ☘️)
+* [☘️ Green Fairy ☘️](https://marketplace.secondlife.com/stores/102808)
 * [China & Goodies](https://marketplace.secondlife.com/stores/144224)
 * [Scarlet Creative 2006 - 2018](https://marketplace.secondlife.com/stores/6345)
 * [REDGRAVE Homes](https://marketplace.secondlife.com/stores/164208)
