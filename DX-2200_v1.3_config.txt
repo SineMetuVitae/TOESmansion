@@ -1,0 +1,183 @@
+# DX-2200 Retro JukeBox Radio - radio controller config notecard
+# The format is divided in  sections:
+# 1 - [ACCESS] Access configuration
+# 2 - [GENRE] Categories  (same as genres)
+# 3 - [STATION] Station info (category, name, url)
+# The '#' character defines the start of a comment and can be anywhere on a line. 
+# Everything after the '#' incuding the '#' itself is ignored.
+# Case is not important (but information on display will show as entered)
+# Spaces before and/or after fields are trimmed.
+# Empty lines are ignored.
+
+[ACCESS]
+#in the 3 access lines IMPORTAD! one must be "yes" and the rest must be "no"
+#change with "yes" or "no" without quotes below:
+owner=no      # yes or no?......means owner has access. everything else not.
+group=yes         #   yes or no?....Means Has Access for Group Members.
+public=no      #  yes or no?....Means Public has Access. WARNING! this Use for Everyone!
+
+[GENRE]
+# genre name -- Use short genre names as the the length of menu buttons is short!
+# NOTE: DO NOT ADD MORE GENRES EXCEPT THAN ALREADY SELECTED
+# if you would like to add some radio station you have to replace/remove one of the existing ones.
+
+Electronic
+Rock
+Metal
+Jazz
+Blues
+Chill Out
+Pop
+Reggae
+Oldies 80's
+Classical
+# etc.
+[STATION]
+# Use a '|' between each field - don't mind spaces before and after fields, they will be trimmed
+# field1:genre, field2:station Button, field3: station description(Text), field4: station http://<ip>:<port> or https://<ip>:<port>
+#EXAMPLE: ELECTRO(genre) | DI-DnB (Button Dialog) | Drum & Bass (Text) | http://207.200.96.229:8030 (Stream)
+# Note: that genre must match case-insensitive a value previously entered in section [GENRE]
+########################################################################
+Electronic | Psyradio.fm | http://81.88.36.42:8010
+Electronic | Ibiza Global | http://37.59.254.31:8024
+Electronic | FRISKY | http://stream.friskyradio.com:8000
+Electronic | Dance ch2 | http://178.77.123.78:8020
+Electronic | Puls Radio | http://212.83.185.113
+Electronic | Radio Party | http://178.33.232.230:8005
+Electronic | Ibiza Underground | http://173.192.105.231:3540
+Electronic | ETN.fm-Psytrance | http://24.249.116.122:8110
+Electronic |  Magic Radio | http://87.98.153.24:80
+Electronic | Grey Radio | http://144.76.92.208:8442
+Electronic | plattendreher.net | http://85.25.152.205:8000
+Electronic | EDM2GO | http://142.4.217.133:9303
+Electronic | HOUSE LOUNGE | http://198.15.94.34:8024
+Electronic | .:: Ushuaia Ibiza ::. | http://82.196.6.157:8000
+Electronic | Proton Radio | http://67.222.107.204:7000
+Electronic | !Radioparty.pl | http://176.31.240.87:8025
+Electronic | plusfm radio | http://195.154.72.66:80
+########################################################################
+Rock | star FM berlin | http://85.25.43.55:8100
+Rock | Rock Melodic | http://37.59.14.77:8124
+Rock | xXx Rock FM  | http://23.29.71.154:8140
+Rock | Classic Rock 109 | http://158.69.167.48:10042
+Rock | CITY FM Classic Rock | http://91.221.151.240:80
+Rock | Planet Rock Belgium | http://91.121.219.80:8330
+Rock | PowerRock 107 | http://209.222.19.107:8524
+Rock | ZROCK Radio | http://184.95.52.178:9440
+Rock | GotRadio | http://173.244.215.163:8400
+Rock | SHE Radio | http://us1.internet-radio.com:8105
+Rock | The Zone | http://uk1.internet-radio.com:15763
+Rock | New Country 93 | http://173.192.70.138:9170
+Rock | 4U Classic Rock | http://217.114.200.100:80
+Rock | Rockhausradio | http://80.237.201.92:8220
+Rock | Country 1630 | http://198.105.216.204:8194
+Rock | Country music 24 | http://91.250.77.9:9000
+Rock | 80's Hairband Channel | http://uplink.duplexfx.com:8014
+Rock | Nashville FM | http://46.231.87.81:8300
+########################################################################
+Metal | METAL UP YOUR ASS | http://198.178.121.76:8012
+Metal | Pagan Metal Radio | http://62.210.209.179:8030
+Metal | Mangled Music Radio | http://192.240.102.133:8289
+Metal | Abash the METAL | http://50.7.70.58:8785
+Metal | Sick World Radio | http://174.37.16.73:1283
+Metal | KNAC Pure Rock | http://s5.voscast.com:7346
+Metal | Tyrant Metal | http://5.39.71.159:8440
+Metal | SIGLOS DE GUERRA | http://164.132.176.144:8000
+Metal | Metal Nation | http://91.121.164.210:8380
+Metal | Idobi Radio - Rock | http://173.245.78.93
+Metal | Venom Radio | http://199.180.72.2:9059
+Metal | Metal Devastation | http://188.40.32.140:8061
+Metal | MetalRock.FM | http://192.99.62.212:9408
+Metal | Metal Messiah Radio | http://96.31.83.94:8176
+Metal | Fusion109 Radio | http://158.69.227.214:8077
+Metal |  Top Tonic Metal | http://listen.radionomy.com:80/TopTonicMetal
+Metal | Beyond Metal | http://listen.radionomy.com/BeyondMetal
+Metal | Metal Party at Dans | http://sc3.spacialnet.com:31560
+########################################################################
+Blues | AUDIOPHILE BLUES | http://8.38.78.173:8240
+Blues | STAR FM Blues | http://85.25.209.152:8400
+Blues | CALM RADIO BLUES | http://184.173.142.117:3728
+Blues | Classic Rock & Blues | http://listen.radionomy.com:80/ClassicRock-Blues
+Blues | Joint Radio Blues | http://64.71.79.181:9992
+Blues | Blues Corner | http://174.123.174.50:8330
+Blues | Crossroads Blues | http://162.216.17.221:8134
+Blues | 12 Bar | http://listen.radionomy.com:80/12Bar
+Blues | Bluesnado-Radio | http://listen.radionomy.com:80/Bluesnado-Radio
+Blues | ISKC Blues Cafe | http://93.190.142.179:8286
+Blues | Big Planet Blues | http://69.64.35.182:8275
+######################################################################## 
+Jazz | Jazz Groove | http://199.180.72.2:8015
+Jazz | Audiophile Jazz | http://8.38.78.173:8210
+Jazz | CALM RADIO | http://184.173.142.117:30728
+Jazz | CALM RADIO2 | http://184.173.142.117:7728
+Jazz | Satin Jazz | http://198.27.65.120:20066
+Jazz | DI Radio Digital | http://5.39.71.159:8950
+Jazz | JAZZ TUNE RADIO | http://109.169.26.216:8209
+Jazz | Jazz Juice Radio | http://91.121.134.105:8004
+Jazz | KISS Jazz | http://149.56.23.7:20010
+Jazz | KJAZ.fm | http://173.255.212.74:8000
+Jazz | Very Vintage Jazz | http://149.56.240.65:20024
+########################################################################
+Chill Out | KLUX 89.5 | http://67.228.150.184:7610
+Chill Out | 101 SMOOTH JAZZ | http://listen.radionomy.com:80/101SMOOTHJAZZMELLOWMIX
+Chill Out | The Oasis - Modern | http://listen.radionomy.com/TheOasis-ModernEasyListening
+Chill Out | 113FM Coffee House | http://listen.shoutcast.com/113fmcoffeehouse
+Chill Out | Ambient & Lounge | http://62.210.75.134:8000/stream/3
+Chill Out | Loveradio | http://31.14.40.241:9722
+Chill Out | Humboldt 101 | http://relay.sonixcast.com:8969
+Chill Out | Audiophile Lounge | http://8.38.78.173:8226
+Chill Out | Ambiento | http://188.165.192.5:8801
+Chill Out | Hit's My Music Zen | http://listen.radionomy.com/Hit-s-My-Music-Zen
+Chill Out | AmbientRadio | http://uk2.internet-radio.com:31491
+Chill Out | RadionoMiX | http://listen.radionomy.com/RadionoMiX
+Chill Out | RMNrelax | http://91.250.77.9:8023
+Chill Out | Ambiance Radio | http://listen.radionomy.com/Ambiance-Radio
+########################################################################
+Pop | Fly 104 | http://37.59.32.115:6168
+Pop | 100Hitz | http://69.4.234.186:9090
+Pop | DEFJAY | http://83.169.60.44:80
+Pop | Zoo Radio 90.8 | http://s10.voscast.com:9940
+Pop | Pop FM 98.7 | http://158.69.242.81:4052
+Pop | POWERHITZ.COM | http://66.85.88.174:80/hitlist
+Pop | Top 40 Hits All Day | http://listen.shoutcast.com/top40hitsallday
+Pop | bAm BaM RADIO | http://88.200.120.90:8880
+Pop | virgin1045 | http://188.40.81.138:8020
+Pop | Hot Hits UK | http://5.135.191.40:8000
+Pop | 96.3 VIP | http://149.56.240.65:20034
+Pop | ATOMIC RADIO | http://188.165.196.212:8038
+Pop | Radio - Infinity | http://87.106.59.72:8000/rinf1.mp3
+Pop | ABC HITS MUSIC | http://listen.radionomy.com/ABC-HITS-MUSIC
+######################################################################## 
+Classical | Venice Classic Italia | http://109.123.116.202:8010
+Classical | Counterstream Radio | http://34.198.114.167:8000
+Classical | RADIO CLASIC MOZART | http://37.251.146.169:8300
+Classical | RADIO CLASIC ROMANIA | http://37.251.146.169:8000
+Classical | radioMUSIC101 | http://37.59.42.207:8559
+Classical | KISS Classical | http://198.105.216.204:8164
+Classical | Audiophile Baroque | http://8.38.78.173:8045
+######################################################################## 
+Oldies 80's | All80s | http://109.169.26.139:8432
+Oldies 80's | Radio Stad 97.2 FM | http://81.173.3.250:80
+Oldies 80's | The Mix Radio 80s | http://51.255.127.128:8016
+Oldies 80's | MagicRadio | http://212.83.185.113:80/magicradioHD.mp3
+Oldies 80's | radio.com All 80s | http://23.92.61.227:8888/80sPlanet.mp3
+Oldies 80's | 80 90 Lovers | http://5.39.82.157:8016
+Oldies 80's | @Magic-Radio | http://51.15.151.152:80
+Oldies 80's |  Antwerpen FM | http://streams.lazernet.be:2710
+Oldies 80's | RADIO TOP 80 | http://109.71.41.6:8086
+Oldies 80's | RADIO CENTER 80s | http://212.18.63.135:8064
+Oldies 80's | Radio TOP80 | http://radio.top80.pl:9940
+Oldies 80's | 80s STATION | http://204.45.80.115:9988
+Oldies 80's | always 80s | http://listen.radionomy.com/always-80s
+########################################################################
+Reggae | Natural Mystic Radio | http://173.192.105.231:6976
+Reggae | Surf Roots | http://listen.radionomy.com:80/SurfRoots
+Reggae | Riddim Roots Radio | http://51.255.235.165:5416
+Reggae | Radio Feverpitch | http://82.94.166.107:8097
+Reggae | Reggae RastaMusic | http://64.202.98.32:808
+Reggae | A REGGAE DREAM| http://listen.radionomy.com/AREGGAEDREAM-Rasta24H
+Reggae | (((16 DOT COM)) | http://109.74.196.76:8273
+Reggae |  Lockdown Radio UK | http://188.165.237.19:8266
+Reggae | One Love Radio Live | http://142.4.217.133:8603
+########################################################################
+# etc.
